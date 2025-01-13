@@ -1,5 +1,5 @@
 function square(num) {
-  num * 2;
+  return Math.pow(num, 2);
 }
 
 module.exports = { square };
